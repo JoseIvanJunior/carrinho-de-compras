@@ -26,6 +26,27 @@
     background: #33BFCB;
 }
 
+.bag-container footer a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10rem;
+    height: 3rem;
+    background: transparent;
+    color: #33BFCB;
+    border: 2px solid #33BFCB;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-weight: bold;
+    transition: background 0.5s, color 0.5s;
+}
+
+.bag-container footer a:hover {
+    color: #FFF;
+    background: #33BFCB;
+}
+
 .book-table {
     width: 100%;
 }

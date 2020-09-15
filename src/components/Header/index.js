@@ -9,6 +9,7 @@ import logo from '../../assets/book.svg'
 
 export default function Header() {
     const cartSize = useSelector(state => state.cart.length)
+
     return (
         <header className="header">
             <Link to="/" className="logo">
